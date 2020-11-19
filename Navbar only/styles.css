@@ -40,12 +40,15 @@ body {
     margin: 0px 19px 0px 0px;
 }
 
+.divider{
+  border-bottom: none;
+}
+
 @media(max-width:770px){
     .nav-item{
         text-align: center;
         background-color: #2f4878;
-        border: 5px;
-        border-color: white ;
+        
     }
     .nav-item:hover{
       text-align: center;
@@ -59,15 +62,11 @@ body {
       padding: 2px 2px 2px 2px;
       
   }
+
+  .divider-vertical{
+    border-bottom: 1px solid #e7e7e7;
+  }
+  
     
     
 }
-
-
-  
-
- 
-
-  
-
-  
