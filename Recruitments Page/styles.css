@@ -1,0 +1,171 @@
+body {
+    background-color: #213159;
+}
+
+/*NAVBAR STYLES*/
+
+.Navbar-Section{
+  padding: 1% 5% 7%;
+}
+
+.Navbar-Section button:focus{
+  outline: none;
+}
+
+.navbar {
+    padding: 1% 10% 1%;
+    z-index: 5;
+  }
+
+  .navbar-custom{
+    background-color: #213159;
+  }
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='	rgb(231,231,231,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .custom-toggler.navbar-toggler {
+    border-color: #e7e7e7;
+  } 
+  
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  nav .navbar-nav li a {
+    color: #eeeeee !important;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-icons {
+    font-size: 1.7rem;
+    margin: 0px 19px 0px 0px;
+}
+
+.divider{
+  border-bottom: none;
+}
+
+/*Card STYLES*/
+.Card-Section{
+  padding: 4% 15% 3%;
+  background-image: url("/images/IETE\ BLACK\ -\ Copy3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 45%;
+}
+
+.thumbnail{
+  
+  padding: 5%;
+}
+
+/*FOOTER SECTION*/
+
+.footer-content{
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 25px;
+letter-spacing: 0.06em;
+color: #E7E7E7;
+align-self: center;
+text-align: center;
+
+}
+
+.footer {
+  
+  color: #E7E7E7;
+  text-align: center;
+  left: 0px;
+  bottom: 0px;
+  
+  
+  width: 100%;
+}
+
+.footer .fixed-bottom{
+  padding-bottom: 20px;
+  background-color: #213159;
+  padding-top: 10px;
+  
+}
+
+@media(max-width:770px){
+
+  /*NAVBAR STYLES */
+  .Navbar-Section{
+    padding: 1% 5% 10%;
+  }
+
+  
+  
+    .nav-item{
+        text-align: center;
+        background-color: #2f4878;
+        
+    }
+    .nav-item:hover{
+      text-align: center;
+      background-color:#53678d;
+    }
+    .nav-link:hover{
+      text-decoration: none;
+    }
+    .nav-icons img{
+      margin:5px 5px 5px 15px;
+      padding: 2px 2px 2px 2px;
+      
+  }
+
+  .divider-vertical{
+    border-bottom: 1px solid #e7e7e7;
+  }
+
+  /*Card section*/
+  .Card-Section{
+    padding: 10% 15% 20%;
+  }
+
+
+
+  /*FOOTER*/
+  
+  footer {
+    padding: 0% 5% 15%;
+    margin: 4px 10px 4px;
+  }  
+  .footer-text{
+    font-style: normal;
+    font-weight: normal;
+    
+    color: #E7E7E7;
+    align-self: center;
+    text-align: center;
+    
+    }
+}
+
+
+  
+
+ 
+
+  
+
+  
