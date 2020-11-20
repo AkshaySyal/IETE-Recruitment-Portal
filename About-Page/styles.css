@@ -1,0 +1,223 @@
+body {
+    background-color: #213159;
+}
+
+/*NAVBAR STYLES*/
+
+.Navbar-Section{
+  padding: 1% 5% 7%;
+}
+
+.Navbar-Section button:focus{
+  outline: none;
+}
+
+.navbar {
+    padding: 1% 10% 1%;
+    z-index: 5;
+  }
+
+  .navbar-custom{
+    background-color: #213159;
+  }
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='	rgb(231,231,231,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .custom-toggler.navbar-toggler {
+    border-color: #e7e7e7;
+  } 
+  
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  nav .navbar-nav li a {
+    color: #eeeeee !important;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-icons {
+    font-size: 1.7rem;
+    margin: 0px 19px 0px 0px;
+}
+
+.divider{
+  border-bottom: none;
+}
+
+/*ABOUT WATERMARK IMAGE*/
+
+.background-image{
+  background-image: url("/images/IETE\ BLACK\ -\ Copy3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 43%;
+}
+
+/*ABOUT STYLES*/
+.About-Section{
+  padding: 5% 15% 3%;
+
+}
+
+
+.About-Section .card{
+  padding: 10px;
+}
+
+.About-Section .card{
+  background-color: #2f4878;
+  border-radius: 30px;
+  color: #ffffff;
+  opacity: 0.8;
+  margin: 0px 30px 0px;
+  
+}
+
+.card-img-top{
+  background-color: #2f4878;
+  width:50%;
+  padding: 20px 20px 0px;
+  border-radius: 30px;
+}
+
+.About-Section .card-text{
+  padding: 5px 0px 5px 0px;
+  text-align: left;
+}
+
+.About-Section .card-title{
+  padding:10px 6px 15px;
+  border-bottom: 3px solid #ffffff;
+  
+}
+
+/*FOOTER SECTION*/
+
+.footer-content{
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 25px;
+letter-spacing: 0.06em;
+color: #E7E7E7;
+align-self: center;
+text-align: center;
+
+}
+
+.footer {
+  
+  color: #E7E7E7;
+  height:100px;
+  text-align: center;
+  left: 0px;
+  bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.footer .fixed-bottom{
+  padding-bottom: 20px;
+  background-color: #213159;
+  padding-top: 10px;
+  
+}
+
+@media(max-width:770px){
+
+  /*NAVBAR STYLES */
+  .Navbar-Section{
+    padding: 1% 5% 10%;
+  }
+
+  
+  
+    .nav-item{
+        text-align: center;
+        background-color: #2f4878;
+        
+    }
+    .nav-item:hover{
+      text-align: center;
+      background-color:#53678d;
+    }
+    .nav-link:hover{
+      text-decoration: none;
+    }
+    .nav-icons img{
+      margin:5px 5px 5px 15px;
+      padding: 2px 2px 2px 2px;
+      
+  }
+
+  .divider-vertical{
+    border-bottom: 1px solid #e7e7e7;
+  }
+
+  /*Card section*/
+  .About-Section{
+    padding: 1% 5% 10%;
+  }
+
+  .About-Section .card{
+    padding: 10px;
+  }
+
+  .About-Section .card{
+    margin: 40px 30px 30px;;
+  }
+
+  .card-img-top{
+    width:50%;
+    padding: 15px 15px 15px;
+    border-radius: 30px;
+  }
+  
+  .About-Section .card-text{
+    padding: 5px 20px 15px 0px;
+  }
+
+
+
+  /*FOOTER*/
+  
+  footer {
+    padding: 0% 5% 15%;
+    margin: 4px 10px 4px;
+  }  
+  .footer-text{
+    font-style: normal;
+    font-weight: normal;
+    
+    color: #E7E7E7;
+    align-self: center;
+    text-align: center;
+    
+    }
+}
+
+
+  
+
+ 
+
+  
+
+  
