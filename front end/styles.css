@@ -97,8 +97,8 @@ body {
 }
 
 .About-Section .card-text{
-  padding: 5px 5px 5px 0px;
-  text-align: justify;
+  padding: 5px 0px 5px 0px;
+  text-align: left;
 }
 
 .About-Section .card-title{
@@ -109,11 +109,7 @@ body {
 
 /*FOOTER SECTION*/
 
-footer {
-  padding: 0% 5% 0%;
-}
-
-.footer-text{
+.footer-content{
 font-style: normal;
 font-weight: normal;
 font-size: 23px;
@@ -125,21 +121,23 @@ text-align: center;
 
 }
 
-.bold-link{
-  display: inline-block;
-  font-weight: 600;
+.footer {
+  
+  color: #E7E7E7;
+  height:100px;
+  text-align: center;
+  left: 0px;
+  bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  font-size: 23px;
-line-height: 25px;
-letter-spacing: 0.06em;
-color: #E7E7E7;
-  text-align: center;
+.footer .fixed-bottom{
+  padding-bottom: 20px;
+  background-color: #213159;
+  padding-top: 10px;
+  
 }
 
 @media(max-width:770px){
