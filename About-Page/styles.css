@@ -1,6 +1,7 @@
 body {
   background-color: #213159;
   overflow: hidden;
+  font-family: "Roboto";
 }
 
 /*NAVBAR STYLES*/
@@ -15,7 +16,6 @@ outline: none;
 
 .navbar {
   padding: 1% 10% 1%;
-  z-index: 5;
 }
 
 .navbar-custom{
@@ -47,6 +47,10 @@ nav .navbar-nav li a {
 
 .nav-link {
   font-size: 1.2rem;
+}
+
+.a-tab{
+  text-decoration: underline;
 }
 .nav-link:hover {
   text-decoration: underline;
@@ -171,6 +175,10 @@ padding-top: 10px;
     margin:5px 5px 5px 15px;
     padding: 2px 2px 2px 2px;
     
+}
+
+.a-tab{
+  text-decoration: none;
 }
 
 .divider-vertical{
