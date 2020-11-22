@@ -1,0 +1,309 @@
+body {
+    background-color: #213159;
+    font-family: "Roboto";
+}
+
+/*NAVBAR STYLES*/
+
+.Navbar-Section{
+  padding: 1% 5% 7%;
+  }
+  
+  .Navbar-Section button:focus{
+  outline: none;
+  }
+  
+  .navbar {
+    padding: 1% 10% 1%;
+  }
+  
+  .navbar-custom{
+    background-color: #213159;
+  }
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='	rgb(231,231,231,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .custom-toggler.navbar-toggler {
+    border-color: #e7e7e7;
+  } 
+  
+  .navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  nav .navbar-nav li a {
+    color: #eeeeee !important;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  
+  .h-tab{
+    text-decoration: underline;
+  }
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .nav-icons {
+    font-size: 1.7rem;
+    margin: 0px 19px 0px 0px;
+  }
+  
+  .divider{
+  border-bottom: none;
+  }
+
+
+
+/*Main STYLES*/
+
+.Main-Section{
+  padding: 1% 10% 7%;
+  height: 550px;
+  
+
+}
+
+.background-img{
+  padding: 4% 8% 3% 8%;
+  background-image: url("/images/IETE\ BLACK\ -\ Copy3.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 40%;
+}
+
+.heading{
+font-style: normal;
+
+color: #E7E7E7;
+padding: 2% 2% 1% 8%;
+}
+
+.heading h1{
+  font-size: 4rem;
+  font-family: "Roboto";
+  font-weight:500;
+  letter-spacing: 0.06em;
+  
+}
+
+.sub-heading{
+  padding: 0% 2% 5% 8%;
+  
+  
+line-height: 57px;
+text-align: left;
+letter-spacing: 0.06em;
+color: #E7E7E7;
+}
+
+.sub-heading h4{
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.main-button{
+  padding: 0% 2% 2% 8%;
+}
+
+.main-button button{
+  background-color: #e7e7e7;
+  text-align: center;
+  padding: 0.5%;
+  color:#213159;
+  border: none;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 600;
+  
+}
+
+.main-button button i{
+  font-size: 25px;
+  padding: 1%;
+}
+
+
+.main-button button:focus{
+  outline: none;
+}
+
+.sub-sub-heading{
+  color:#e2494d;
+  padding: 2% 2% 2% 8%;
+}
+
+
+
+
+/*FOOTER SECTION*/
+
+.footer-content{
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 25px;
+letter-spacing: 0.06em;
+color: #E7E7E7;
+align-self: center;
+text-align: center;
+
+}
+
+.footer {
+  
+  color: #E7E7E7;
+  text-align: center;
+  left: 0px;
+  bottom: 0px;
+  
+  
+  width: 100%;
+}
+
+.footer .fixed-bottom{
+  padding-bottom: 20px;
+  background-color: #213159;
+  padding-top: 10px;
+  
+}
+
+@media(max-width:770px){
+
+  /*NAVBAR STYLES */
+  .Navbar-Section{
+    padding: 1% 5% 10%;
+  }
+ .nav-item{
+        text-align: center;
+        background-color: #2f4878;
+        
+    }
+    .nav-item:hover{
+      text-align: center;
+      background-color:#53678d;
+    }
+    .nav-link:hover{
+      text-decoration: none;
+    }
+    .nav-icons img{
+      margin:5px 5px 5px 15px;
+      padding: 2px 2px 2px 2px;
+      
+  }
+
+  .divider-vertical{
+    border-bottom: 1px solid #e7e7e7;
+  }
+
+  .h-tab{
+    text-decoration: none;
+  }
+
+  /*Main Content*/
+  .background-img{
+    padding: 4% 8% 3%;
+    background-image: url("/images/IETE\ BLACK\ -\ Copy3.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 0%;
+  }
+
+  .heading{
+    font-style: normal;
+    
+    color: #E7E7E7;
+    padding: 20% 2% 1% 8%;
+    }
+    
+    .heading h1{
+      font-size: 2rem;
+      font-family: "Roboto";
+      font-weight:500;
+      letter-spacing: 0.06em;
+      
+    }
+    
+    .sub-heading{
+      padding: 10% 2% 5% 8%;
+      
+      
+    line-height: 57px;
+    text-align: left;
+    letter-spacing: 0.06em;
+    color: #E7E7E7;
+    }
+    
+    .sub-heading h4{
+      font-family: "Roboto";
+      font-weight: 400;
+    }
+    
+    .main-button{
+      padding: 0% 2% 2% 8%;
+    }
+    
+    .main-button button{
+      background-color: #e7e7e7;
+      text-align: center;
+      padding: 0.5%;
+      color:#213159;
+      border: none;
+      font-size: 15px;
+      font-family: "Roboto";
+      font-weight: 600;
+      
+    }
+    
+    .main-button button i{
+      font-size: 20px;
+      padding: 1%;
+    }
+    
+    
+    .main-button button:focus{
+      outline: none;
+    }
+    
+    .sub-sub-heading{
+      color:#e2494d;
+      padding: 20% 2% 2% 8%;
+    }
+
+
+
+  /*FOOTER*/
+  .footer{
+    position: relative;
+    bottom: 0;
+  }
+  .footer-text{
+    font-style: normal;
+    font-weight: normal;
+    
+    color: #E7E7E7;
+    align-self: center;
+    text-align: center;
+    
+    }
+}
+
+
+  
+
+ 
+
+  
+
+  
