@@ -1,5 +1,6 @@
 body {
     background-color: #213159;
+    overflow: hidden;
 }
 
 /*NAVBAR STYLES*/
@@ -66,7 +67,7 @@ body {
   background-image: url("/images/IETE\ BLACK\ -\ Copy3.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 43%;
+  background-size: 42%;
 }
 
 /*ABOUT STYLES*/
