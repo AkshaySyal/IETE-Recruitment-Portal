@@ -47,8 +47,17 @@ body {
   .nav-link {
     font-size: 1.2rem;
 }
+
+.r-tab{
+  text-decoration: underline;
+}
+
 .nav-link:hover {
     text-decoration: underline;
+}
+
+.nav-link:nth-child(3){
+  text-decoration: underline;
 }
 
 .nav-icons {
@@ -62,7 +71,7 @@ body {
 
 /*Card STYLES*/
 .Card-Section{
-  padding: 4% 15% 3%;
+  padding: 2% 15% 3%;
   background-image: url("/images/IETE\ BLACK\ -\ Copy3.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -70,8 +79,19 @@ body {
 }
 
 .thumbnail{
-  
   padding: 5%;
+}
+
+.thumbnail:hover{
+  padding:0%;
+}
+
+.year-heading{
+  color: #e7e7e7;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: 500;
 }
 
 /*FOOTER SECTION*/
@@ -131,6 +151,11 @@ text-align: center;
       margin:5px 5px 5px 15px;
       padding: 2px 2px 2px 2px;
       
+  }
+
+ .r-tab{
+    text-decoration: none;
+    
   }
 
   .divider-vertical{
