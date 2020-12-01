@@ -553,10 +553,7 @@ select {
 	font-size: 13px;
 	margin: 0; 
 	background-color: #213159;
-	background-image: url("/images/IETE\ BLACK\ -\ Copy3.png");
-background-repeat: no-repeat;
-background-position: center;
-background-size: 42%;
+	
 }
   
   input, textarea, select, button {
