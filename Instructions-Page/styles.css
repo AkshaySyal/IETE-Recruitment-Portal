@@ -1,0 +1,40 @@
+
+
+body {
+    background-color: #213159;
+    
+    font-family: "Roboto";
+  }
+
+  .background-image{
+    background-image: url("/images/IETE\ BLACK\ -\ Copy3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 52%;
+    }
+
+  .card{
+    padding: 10px;
+    }
+
+    .card{
+        background-color: rgba(152, 174, 208, 0.3);;
+        border-radius: 30px;
+        color: #ffffff;
+        opacity: 0.8;
+        margin: 0px 30px 0px;
+        
+        }
+    .IntsructionContents{
+        height: 100%;
+        padding: 0vw 5vw 0vw;
+        
+
+    }
+    .flex-2 {
+        display: flex;  
+        align-items: stretch;
+    }
+    .centered {  margin: 0 auto; width: 80%; }
+
+    
