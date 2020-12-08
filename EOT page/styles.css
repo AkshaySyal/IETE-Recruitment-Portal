@@ -1,0 +1,91 @@
+body {
+    background-color: #213159;
+    
+    font-family: "Roboto";
+    color: #E7E7E7;
+   
+  }
+
+  .background-img{
+    background-image: url("/images/IETE\ BLACK\ -\ Copy3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 42%;
+  }
+
+  .img-section{
+      padding: 2% 2% 0% 2%;
+      text-align: center;
+  }
+
+  .main-heading{
+    padding:2%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.sub-heading{
+    padding:2%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.contact-us{
+    padding:2%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contact-us img{
+    margin: 15px;
+}
+
+  
+
+    /*FOOTER SECTION*/
+
+.footer-content{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    color: #E7E7E7;
+    align-self: center;
+    text-align: center;
+    
+    }
+
+    .footer {
+
+        color: #E7E7E7;
+        height:50px;
+        text-align: center;
+        left: 0px;
+        bottom: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        }
+        
+        .footer .fixed-bottom{
+        padding-bottom: 20px;
+        background-color: #213159;
+        padding-top: 10px;
+        
+        }
+
+        @media(max-width:770px){
+            footer {
+                padding: 0% 5% 15%;
+                margin: 4px 10px 4px;
+              }  
+              .footer-text{
+                font-style: normal;
+                font-weight: normal;
+                
+                color: #E7E7E7;
+                align-self: center;
+                text-align: center;
+                
+                }
+        }
